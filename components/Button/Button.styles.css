@@ -1,0 +1,44 @@
+.storybook-button {
+  /* font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1; */
+  cursor: pointer;
+  background: unset;
+  border: 1px solid #00ffff;
+  color: #00ffff;
+  width: 65px;
+  /* border-left: 0px; */
+  transition: ease all 0.2s;
+  font-size: 25px;
+  margin: 0 !important;
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  font-family: inherit;
+}
+/* .storybook-button--primary {
+  color: white;
+  background-color: #1ea7fd;
+}
+.storybook-button--secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgb(0 0 0 / 15%) 0 0 0 1px inset;
+} */
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 25px;
+  padding: 12px 24px;
+}

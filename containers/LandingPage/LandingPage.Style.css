@@ -1,0 +1,31 @@
+.landing-page-container {
+  color: #687808;
+}
+
+footer {
+  background-color: rgb(63, 55, 52);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem 3rem 5rem 3rem;
+  gap: 2rem;
+}
+
+footer section {
+  color: white;
+  text-align: left;
+}
+
+.verticalLine {
+  border-right: 1px solid rgb(109, 251, 251);
+  padding-right: 2rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 4fr auto;
+}
+
+.newslatterInputStyle {
+  display: flex;
+  flex-direction: column;
+}

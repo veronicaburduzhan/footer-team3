@@ -1,0 +1,25 @@
+.text-widget {
+  font-family: 'PT Sans', sans-serif;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  font-size: 100%;
+  background-color: #3f3734;
+  font-weight: 500;
+}
+
+.storybook-text--primary {
+  color: #fff;
+  font-size: 14px;
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+a {
+  color: #fff;
+   line-height: 1.8rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
